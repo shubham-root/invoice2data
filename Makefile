@@ -4,4 +4,4 @@ pypi-release:
 	git push origin master
 	git push origin master --tags
 	python3 setup.py sdist bdist_egg
-	twine upload dist/invoice2data-0.3.11*
+	twine upload dist/invoice2data-0.3.12*
